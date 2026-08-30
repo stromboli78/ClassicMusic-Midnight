@@ -1,5 +1,7 @@
 # Classic Music: Midnight
 
+![Midnight Silvermoon at night](assets/gallery/01-midnight-silvermoon-night.png)
+
 Classic Music: Midnight brings the atmosphere of Vanilla and The Burning
 Crusade into Retail's Midnight zones. Each supported area receives one
 hand-matched Blizzard SoundKit, including day and night variants where an
@@ -7,6 +9,8 @@ appropriate historical counterpart exists.
 
 The addon includes no music files, streams nothing, and modifies no game files.
 It only plays music already installed with World of Warcraft.
+
+> New Silvermoon. Classic soul.
 
 > **0.9.0 is a public beta.** Reports from zones, instances, phases, and audio
 > configurations that have not yet received broad testing are welcome.

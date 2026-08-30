@@ -1,5 +1,20 @@
 # CurseForge image capture guide
 
+## Current curated gallery
+
+- `assets/gallery/01-midnight-silvermoon-night.png` — primary atmospheric hero
+- `assets/gallery/02-native-settings.png` — primary functional screenshot
+- `assets/gallery/03-classic-silvermoon-gardens.png` — historical visual reference
+- `assets/gallery/04-classic-silvermoon-entrance.png` — historical visual reference
+
+The supplied Ghostlands screenshot was intentionally excluded because hostile
+NPC nameplates dominate the frame and make it look like an accidental gameplay
+capture rather than release imagery. The four retained originals are unaltered.
+
+Still needed for a complete gallery: an authentic Now Playing message in a
+Midnight zone, a day/night pair from the same camera position, and one supported
+dungeon, raid, or delve.
+
 ## Capture setup
 
 - Capture at 2560×1440 or 1920×1080 in 16:9, using the same resolution throughout.

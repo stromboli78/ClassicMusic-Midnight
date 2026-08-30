@@ -104,12 +104,14 @@ Blizzard audio is distributed with the addon.
 
 ## Gallery captions
 
-1. **Eversong, remembered** — Classic Eversong music returns to Midnight's rebuilt homeland, with optional track announcements.
-2. **Music that follows the hour** — Verified outdoor profiles select their day or night counterpart using realm time.
-3. **Native settings** — Choose supported content categories, announcements, and playback volume from WoW's AddOns settings.
-4. **Historical themes in instances** — Dungeons, raids, delves, and lairs receive fixed Vanilla or Burning Crusade counterparts.
-5. **Simple chat controls** — Check the current track or toggle music and dialogue without fighting Blizzard music.
-6. **Across Midnight** — Representative themes for Eversong, Harandar, Voidstorm, and Coiled Isle.
+1. **New Silvermoon. Classic soul.** — Midnight's rebuilt city, accompanied by hand-matched music from its history. (`01-midnight-silvermoon-night.png`)
+2. **Native settings** — Choose content categories, track announcements, and playback volume directly from WoW's AddOns settings. (`02-native-settings.png`)
+3. **The sound of Eversong** — The colors and architecture that inspired the addon's original Eversong musical identity. (`03-classic-silvermoon-gardens.png`)
+4. **Remembering Silvermoon** — Classic Silvermoon's entrance provides the visual counterpart to Midnight's rebuilt capital. (`04-classic-silvermoon-entrance.png`)
+
+Publish the first two images as the primary project gallery. Use the two Classic
+Silvermoon images together as a supporting historical pair, not as evidence of
+Midnight gameplay. Their captions must make that distinction clear.
 
 ## Image disclosure template
 
