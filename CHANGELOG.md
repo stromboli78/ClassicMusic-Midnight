@@ -2,6 +2,12 @@
 
 All notable changes to Classic Music: Midnight are recorded here.
 
+## [0.9.0-beta.2] - 2026-08-30
+
+### Changed
+
+- Corrected automated CurseForge publishing for the first public CurseForge beta.
+
 ## [0.9.0-beta.1] - 2026-08-30
 
 ### Added
@@ -24,4 +30,5 @@ All notable changes to Classic Music: Midnight are recorded here.
   operating-system audio device.
 - Other addons playing music on the Master channel may overlap this addon.
 
+[0.9.0-beta.2]: https://github.com/stromboli78/ClassicMusic-Midnight/releases/tag/v0.9.0-beta.2
 [0.9.0-beta.1]: https://github.com/stromboli78/ClassicMusic-Midnight/releases/tag/v0.9.0-beta.1
