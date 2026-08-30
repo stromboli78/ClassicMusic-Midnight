@@ -1,0 +1,13 @@
+## Interface: 120100
+## Title: Classic Music: Midnight
+## Notes: Brings Classic and Burning Crusade zone music into Midnight.
+## Author: stromboli78
+## Version: 0.9.0
+## SavedVariables: BetterMusicDB
+## IconTexture: Interface\Icons\INV_Misc_Drum_03
+## X-License: MIT
+
+Localization.lua
+Data.lua
+Core.lua
+Settings.lua

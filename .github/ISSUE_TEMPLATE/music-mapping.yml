@@ -1,0 +1,50 @@
+name: Music or map report
+description: Report a missing area, wrong theme, day/night issue, or failed SoundKit
+title: "[Music]: "
+labels: [music-mapping]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Zone or activity
+    validations:
+      required: true
+  - type: input
+    id: realm_time
+    attributes:
+      label: Realm time
+      placeholder: 21:30 (night)
+    validations:
+      required: true
+  - type: input
+    id: current
+    attributes:
+      label: Current track
+      description: Use /bettermusic status if needed.
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should play instead?
+      description: Name a Classic/TBC area or mood; a numeric SoundKit is optional.
+    validations:
+      required: true
+  - type: textarea
+    id: debug
+    attributes:
+      label: /bettermusic debug output
+      description: Paste only the safe addon output.
+      render: text
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Current result
+      options:
+        - Wrong Classic/TBC track
+        - Blizzard Midnight music plays
+        - Silence
+        - Day/night variant is wrong
+        - Track fails or stops early
+    validations:
+      required: true

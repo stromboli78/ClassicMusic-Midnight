@@ -1,0 +1,65 @@
+name: Bug report
+description: Report broken playback, settings, transitions, or restoration
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for testing Classic Music: Midnight 0.9.0.
+  - type: input
+    id: client
+    attributes:
+      label: WoW client build
+      description: Shown in the lower-left corner of the login screen.
+      placeholder: 12.1.0.69497
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Zone, subzone, dungeon, raid, delve, or scenario.
+    validations:
+      required: true
+  - type: dropdown
+    id: context
+    attributes:
+      label: What were you doing?
+      options:
+        - Entering or leaving an area
+        - Crossing a subzone or phase
+        - Changing audio settings
+        - Toggling music and dialogue
+        - Alt-tabbing or changing audio devices
+        - Watching or leaving a cinematic
+        - Reloading or logging in
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: Tell us exactly what happened and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: debug
+    attributes:
+      label: /bettermusic debug output
+      description: Paste only the safe addon output. Do not post SavedVariables or account information.
+      render: text
+  - type: textarea
+    id: addons
+    attributes:
+      label: Relevant addons and Lua errors
+      description: List other music/audio addons and any error shown with scriptErrors enabled.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues for this problem.
+          required: true
+        - label: I tested with WoW Sound and Music enabled.
+          required: true

@@ -1,0 +1,16 @@
+# Release output
+dist/
+*.zip
+
+# Local WoW and editor state
+*.bak
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Never publish player settings
+WTF/
+BetterMusicDB.lua
