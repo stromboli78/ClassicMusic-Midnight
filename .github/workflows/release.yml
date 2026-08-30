@@ -1,4 +1,4 @@
-name: Package release
+name: Publish release
 
 on:
   push:
@@ -9,11 +9,13 @@ permissions:
   contents: write
 
 jobs:
-  package:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - name: Check out source
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Verify tag matches TOC version
         shell: bash
@@ -26,29 +28,12 @@ jobs:
             exit 1
           }
 
-      - name: Build installable ZIP
-        shell: pwsh
-        run: ./scripts/Package-Addon.ps1 -Version "${{ github.ref_name }}" -OutputDirectory dist
-
-      - name: Verify archive layout
-        shell: bash
-        run: |
-          set -euo pipefail
-          archive="dist/ClassicMusic-Midnight-${GITHUB_REF_NAME}.zip"
-          unzip -l "$archive"
-          unzip -Z1 "$archive" | grep -qx 'BetterMusic/BetterMusic.toc'
-          if unzip -Z1 "$archive" | grep -Eq '(^|/)(\.git|\.github|docs|scripts)(/|$)|README|CHANGELOG|LICENSE'; then
-            echo "Archive contains a development-only file"
-            exit 1
-          fi
-
-      - name: Create GitHub release
+      - name: Package and publish
+        uses: BigWigsMods/packager@v2
+        with:
+          args: >-
+            -p 1675463
+            -n "ClassicMusic-Midnight-{project-version}:Classic Music: Midnight {project-version}"
         env:
-          GH_TOKEN: ${{ github.token }}
-        shell: bash
-        run: |
-          gh release create "$GITHUB_REF_NAME" \
-            "dist/ClassicMusic-Midnight-${GITHUB_REF_NAME}.zip" \
-            --title "Classic Music: Midnight $GITHUB_REF_NAME" \
-            --generate-notes \
-            --prerelease
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}

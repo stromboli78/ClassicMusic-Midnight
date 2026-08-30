@@ -1,0 +1,15 @@
+package-as: BetterMusic
+
+manual-changelog: CHANGELOG.md
+
+ignore:
+  - .github
+  - .gitignore
+  - assets
+  - docs
+  - scripts
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - README.md
+  - SECURITY.md

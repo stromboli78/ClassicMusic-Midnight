@@ -6,6 +6,7 @@
 ## SavedVariables: BetterMusicDB
 ## IconTexture: Interface\Icons\INV_Misc_Drum_03
 ## X-License: MIT
+## X-Curse-Project-ID: 1675463
 
 Localization.lua
 Data.lua
