@@ -1,4 +1,4 @@
-# 0.9.0 beta release checklist
+# 0.9.0-beta.1 release checklist
 
 ## Static checks
 
@@ -30,7 +30,7 @@
 - [ ] Create public `stromboli78/ClassicMusic-Midnight` with no generated files.
 - [ ] Push the source branch and confirm issue forms render correctly.
 - [ ] Add the CurseForge URL to repository metadata after project approval.
-- [ ] Tag `v0.9.0`; GitHub Actions creates a prerelease and installable ZIP.
+- [ ] Tag `v0.9.0-beta.1`; GitHub Actions creates a prerelease and installable ZIP.
 - [ ] Download the generated ZIP and test installation into a clean AddOns folder.
 
 ## CurseForge
@@ -40,7 +40,7 @@
 - [ ] Add the summary and description from `docs/CURSEFORGE.md`.
 - [ ] Select Addons → Audio & Video, MIT, Retail, and game version 12.1.0.
 - [ ] Set GitHub as source and issue tracker.
-- [ ] Upload `ClassicMusic-Midnight-v0.9.0.zip` as Beta with the matching changelog.
+- [ ] Upload `ClassicMusic-Midnight-v0.9.0-beta.1.zip` as Beta with the matching changelog.
 - [ ] Confirm CurseForge recognizes `BetterMusic/BetterMusic.toc`.
 - [ ] Upload honest in-game gallery screenshots with prepared captions.
 - [ ] Add the avatar disclosure if generative editing was used.

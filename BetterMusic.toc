@@ -2,7 +2,7 @@
 ## Title: Classic Music: Midnight
 ## Notes: Brings Classic and Burning Crusade zone music into Midnight.
 ## Author: stromboli78
-## Version: 0.9.0
+## Version: 0.9.0-beta.1
 ## SavedVariables: BetterMusicDB
 ## IconTexture: Interface\Icons\INV_Misc_Drum_03
 ## X-License: MIT
