@@ -2,7 +2,7 @@
 
 All notable changes to Classic Music: Midnight are recorded here.
 
-## [Unreleased]
+## [0.9.0-beta.3] - 2026-09-10
 
 ### Changed
 
@@ -37,5 +37,6 @@ All notable changes to Classic Music: Midnight are recorded here.
   operating-system audio device.
 - Other addons playing music on the Master channel may overlap this addon.
 
+[0.9.0-beta.3]: https://github.com/stromboli78/ClassicMusic-Midnight/releases/tag/v0.9.0-beta.3
 [0.9.0-beta.2]: https://github.com/stromboli78/ClassicMusic-Midnight/releases/tag/v0.9.0-beta.2
 [0.9.0-beta.1]: https://github.com/stromboli78/ClassicMusic-Midnight/releases/tag/v0.9.0-beta.1
