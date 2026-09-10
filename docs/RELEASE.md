@@ -17,10 +17,10 @@
 - [ ] Verify day and night selection using realm time.
 - [ ] Test Loop Music both enabled and disabled.
 - [ ] Drag the addon volume slider; expect one quiet restart after it settles.
-- [ ] Run `/bettermusic toggle`; verify music/dialogue status and recovery.
+- [ ] Run `/classicmusic toggle`; verify music/dialogue status and recovery.
 - [ ] Alt-tab with WoW Sound in Background enabled; expect uninterrupted playback.
 - [ ] Enter and leave an in-engine cinematic and a streamed movie.
-- [ ] Disable the addon feature and run `/bettermusic restore`; Blizzard music returns.
+- [ ] Disable the addon feature and run `/classicmusic restore`; Blizzard music returns.
 - [ ] Enable Lua errors with `/console scriptErrors 1`; no Lua, secret-value, taint,
       or protected-action errors occur.
 

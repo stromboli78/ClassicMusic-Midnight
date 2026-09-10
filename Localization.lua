@@ -98,7 +98,7 @@ local fallback = {
     TIME_NIGHT = "night",
     DEBUG_SECRET = "secret",
     DEBUG_NONE = "none",
-    SLASH_HELP = "Commands: /bettermusic, toggle, next, status, restore, debug",
+    SLASH_HELP = "Commands: /classicmusic, toggle, next, status, restore, debug",
 }
 
 local localized = {}

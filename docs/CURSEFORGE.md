@@ -47,13 +47,13 @@ SoundKits already installed with World of Warcraft.
 ### Getting started
 
 Install the addon, make sure WoW Sound and Music are enabled, and enter supported
-Midnight content. Open the settings with `/bettermusic` or through
+Midnight content. Open the settings with `/classicmusic` or through
 **Options > AddOns**.
 
 If you use a macro to toggle music and dialogue together, use:
 
 ```text
-/bettermusic toggle
+/classicmusic toggle
 ```
 
 This treats addon playback like WoW's main music and prints the resulting status
@@ -61,12 +61,12 @@ in chat.
 
 ### Commands
 
-- `/bettermusic` — open settings
-- `/bettermusic toggle` — toggle music and dialogue together
-- `/bettermusic next` — restart the current area's assigned track
-- `/bettermusic status` — show the active area theme and track
-- `/bettermusic restore` — stop addon playback and restore Blizzard music
-- `/bettermusic debug` — print safe map and instance details for a report
+- `/classicmusic` — open settings
+- `/classicmusic toggle` — toggle music and dialogue together
+- `/classicmusic next` — restart the current area's assigned track
+- `/classicmusic status` — show the active area theme and track
+- `/classicmusic restore` — stop addon playback and restore Blizzard music
+- `/classicmusic debug` — print safe map and instance details for a report
 
 ### Supported content
 
@@ -93,7 +93,7 @@ ownership system for addon-started Master-channel sounds.
 
 This is a public beta. If a location is silent, unmapped, or has the wrong mood,
 please report the zone or activity, realm time, current track, expected music,
-and `/bettermusic debug` output on GitHub.
+and `/classicmusic debug` output on GitHub.
 
 ### Independent fan project
 

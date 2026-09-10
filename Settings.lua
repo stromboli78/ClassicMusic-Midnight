@@ -71,8 +71,9 @@ function ns.OpenSettings()
     end
 end
 
-SLASH_BETTERMUSIC1 = "/bettermusic"
-SlashCmdList.BETTERMUSIC = function(message)
+SLASH_CLASSICMUSIC1 = "/classicmusic"
+SLASH_CLASSICMUSIC2 = "/bettermusic"
+SlashCmdList.CLASSICMUSIC = function(message)
     message = string.lower(strtrim(message or ""))
     if message == "" then
         ns.OpenSettings()

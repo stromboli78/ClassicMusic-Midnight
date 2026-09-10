@@ -46,25 +46,25 @@ is intentionally left to Blizzard music until its IDs and theme are verified.
    `_retail_/Interface/AddOns/`.
 2. Enable **Classic Music: Midnight** at the character-select AddOns screen.
 3. Enter supported Midnight content with WoW Music and Sound enabled.
-4. Open `Options > AddOns > Classic Music: Midnight`, or type `/bettermusic`.
+4. Open `Options > AddOns > Classic Music: Midnight`, or type `/classicmusic`.
 
 ## Commands
 
-- `/bettermusic` opens the native AddOns settings category.
-- `/bettermusic toggle` toggles music and dialogue together while treating
+- `/classicmusic` opens the native AddOns settings category.
+- `/classicmusic toggle` toggles music and dialogue together while treating
   addon playback as music-on. Use this command in a macro instead of changing
   `Sound_EnableMusic` directly.
-- `/bettermusic next` restarts the current area's assigned track.
-- `/bettermusic status` reports the active playlist and track.
-- `/bettermusic restore` stops addon playback and restores the captured WoW
+- `/classicmusic next` restarts the current area's assigned track.
+- `/classicmusic status` reports the active playlist and track.
+- `/classicmusic restore` stops addon playback and restores the captured WoW
   music setting. The current location remains suppressed until content changes.
-- `/bettermusic debug` prints safe map ancestry and instance data for mapping
+- `/classicmusic debug` prints safe map ancestry and instance data for mapping
   verification.
 
 Suggested macro:
 
 ```text
-/bettermusic toggle
+/classicmusic toggle
 ```
 
 ## Native audio behavior
@@ -116,7 +116,7 @@ while waiting resumes playback immediately.
 
 Use [GitHub Issues](https://github.com/stromboli78/ClassicMusic-Midnight/issues).
 For a music or mapping problem, include the zone/activity, realm time, current
-track, what you expected, and the safe output from `/bettermusic debug`.
+track, what you expected, and the safe output from `/classicmusic debug`.
 
 Enable Lua errors with `/console scriptErrors 1`, then `/reload`. SoundKit
 availability and full-track callbacks must be auditioned in the live client;

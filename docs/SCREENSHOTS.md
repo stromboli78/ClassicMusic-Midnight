@@ -23,7 +23,7 @@ dungeon, raid, or delve.
 - Hide unrelated quest tracking, damage meters, nameplates, and addon windows.
 - Keep the minimap only when it helps establish location.
 - Enable **Announce track** only for shots that call for a Now Playing message.
-- Use `/bettermusic status` immediately before capture to confirm the assignment.
+- Use `/classicmusic status` immediately before capture to confirm the assignment.
 - Avoid player, guild, BattleTag, realm, or chat information that should not be public.
 - Save lossless PNG originals. Do not add sharpening, fake UI, or altered track text.
 
@@ -41,7 +41,7 @@ dungeon, raid, or delve.
 
 - Use the same exact camera position in a supported day/night zone.
 - Capture one during the addon day window and one during its night window.
-- Show `/bettermusic status` or a Now Playing line identifying each variant.
+- Show `/classicmusic status` or a Now Playing line identifying each variant.
 - Do not fabricate the comparison by recoloring a single screenshot.
 
 ### 03-native-settings.png
@@ -59,7 +59,7 @@ dungeon, raid, or delve.
 ### 05-chat-controls.png
 
 - Use a quiet supported area with an uncluttered background.
-- Run `/bettermusic status`, then `/bettermusic toggle` twice so the final state is on.
+- Run `/classicmusic status`, then `/classicmusic toggle` twice so the final state is on.
 - Crop closely enough for the output to be legible while retaining some game context.
 
 ### 06-midnight-coverage.png (optional)

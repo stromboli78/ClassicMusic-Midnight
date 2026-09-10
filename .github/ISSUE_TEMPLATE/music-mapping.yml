@@ -20,7 +20,7 @@ body:
     id: current
     attributes:
       label: Current track
-      description: Use /bettermusic status if needed.
+      description: Use /classicmusic status if needed.
   - type: textarea
     id: expected
     attributes:
@@ -31,7 +31,7 @@ body:
   - type: textarea
     id: debug
     attributes:
-      label: /bettermusic debug output
+      label: /classicmusic debug output
       description: Paste only the safe addon output.
       render: text
     validations:

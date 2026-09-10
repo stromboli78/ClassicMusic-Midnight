@@ -2,6 +2,13 @@
 
 All notable changes to Classic Music: Midnight are recorded here.
 
+## [Unreleased]
+
+### Changed
+
+- Made `/classicmusic` the primary slash command while retaining `/bettermusic`
+  as a backwards-compatible alias for existing macros.
+
 ## [0.9.0-beta.2] - 2026-08-30
 
 ### Changed

@@ -10,7 +10,7 @@ problem per issue. Music and map reports should include:
 - zone, subzone, dungeon, raid, delve, or scenario
 - realm time and whether the selected track was a day or night variant
 - current track and the expected musical match
-- safe output from `/bettermusic debug`
+- safe output from `/classicmusic debug`
 - steps to reproduce, including zoning, reloading, alt-tabbing, or changing audio
 - other music or audio addons enabled at the time
 
@@ -20,7 +20,7 @@ value WoW marks secret.
 ## Changes
 
 - Target the current Retail 12.1 client and interface `120100`.
-- Preserve `BetterMusic`, `BetterMusicDB`, and `/bettermusic` compatibility.
+- Preserve `BetterMusic`, `BetterMusicDB`, and the legacy `/bettermusic` alias.
 - Use numeric map and instance IDs, never localized zone-name comparisons.
 - Do not bundle music, modify Blizzard files, or replace Blizzard UI.
 - Keep player-facing strings localized through `Localization.lua`.
